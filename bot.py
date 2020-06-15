@@ -8,7 +8,7 @@ load_dotenv("./secrets/.env")
 client = commands.Bot(command_prefix="!")
 
 extensions = [
-
+    "cogs.general"
 ]
 
 for exten in extensions:
