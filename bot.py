@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv("./secrets/.env")
 
-client = commands.bot(command_prefix="!")
+client = commands.Bot(command_prefix="!")
 
 extensions = [
 
